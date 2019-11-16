@@ -36,7 +36,7 @@ def find_the_cheese(array)# code an argument here
     elsif cheese.include?("gouda")
       return "gouda"
     elsif cheese.include?("camembert")
-      return true
+      return "camembert"
     else 
       return nil
     end
