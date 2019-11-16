@@ -32,9 +32,9 @@ def find_the_cheese(array)# code an argument here
   
   array.each do |cheese|
     if cheese.include?("cheddar")
-      return true
+      return "cheddar"
     elsif cheese.include?("gouda")
-      return true 
+      return "gouda"
     elsif cheese.include?("camembert")
       return true
     else 
